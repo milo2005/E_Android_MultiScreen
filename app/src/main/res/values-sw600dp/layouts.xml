@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="f_master">@layout/fragment_master</item>
+    <item type="layout" name="a-main">@layout/activity_main_tablet</item>
+    <bool name="port">true</bool>
+    <bool name="phone">false</bool>
+</resources>

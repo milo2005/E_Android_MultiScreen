@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.universidadcauca.movil.soportemultiscreen.fragments.MasterFragment"
+    android:stretchColumns="*"
+    >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+    <TableRow>
+        <Button
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:background="#ff323cef"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:text="Editar"
+            android:background="#ff323cef"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:background="#ff323cef"
+            android:textColor="#ffffff"
+            />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:name="com.universidadcauca.movil.soportemultiscreen.fragments.MasterFragment"
+        tools:layout="@layout/f_master" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.universidadcauca.movil.soportemultiscreen.fragments.DetailFragment"
+        tools:layout="@layout/fragment_detail" />
+
+</LinearLayout>
